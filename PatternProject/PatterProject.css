@@ -1,8 +1,17 @@
 
 
+body {
+    background-color: antiquewhite;
+} 
+
 #header {
     background: url("Bally.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;    
+} 
+
+img {
+    height: 35rem;
+    width: 100%;
 }
 
 
