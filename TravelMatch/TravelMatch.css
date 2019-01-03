@@ -1,5 +1,13 @@
 
 
+body {
+    background-color: bisque;
+} 
+
 #title {
     font-family: 'Pacifico', cursive;
+} 
+
+#header {
+    background: url("Vegas Night.jpg")
 }
