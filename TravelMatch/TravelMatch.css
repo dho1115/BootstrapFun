@@ -2,7 +2,7 @@
 
 body {
     background-color: bisque;
-} 
+}
 
 #title {
     font-family: 'Pacifico', cursive;
@@ -10,4 +10,5 @@ body {
 
 #header {
     background: url("Vegas Night.jpg")
-}
+} 
+
