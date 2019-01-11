@@ -3,6 +3,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
+h3 {
+    color: maroon;
+    font-weight: 100; 
+} 
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -19,4 +24,32 @@ body {
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
 } 
+
+p {
+    line-height: 2;
+}
+
+#headingGroup h3 {
+    color: maroon;
+    font-weight: 100;    
+} 
+
+.navbar.scrolled {
+    background-color: darkmagenta;
+    transition: background 700ms;
+}
+
+.navbar.original {
+    background-color: black;
+}
+
+@media(max-width: 1000px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    img {
+        border: 3px solid red;
+        border-radius: 100%;       
+    }    
+}
 
